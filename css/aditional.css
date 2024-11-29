@@ -1,0 +1,16 @@
+.flex-container {
+  height: 200px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.item {
+  border: 2px solid lightgreen;
+}
+
+.item-1 {
+  align-self: flex-start;
+}
